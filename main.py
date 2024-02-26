@@ -49,7 +49,7 @@ def texture_synthesis(source_texture, target_size, patch_size=9, seed_size=3):
     return target_texture
 
 # Example usage
-source_texture = io.imread('texture.jpeg')  # Load your source texture
+source_texture = io.imread('textur1.jpeg')  # Load your source texture
 source_texture = source_texture.resize(50,50,3)
 target_size = (100, 100)  # Desired size of the synthesized texture
 synthesized_texture = texture_synthesis(source_texture, target_size, patch_size=9, seed_size=3)
